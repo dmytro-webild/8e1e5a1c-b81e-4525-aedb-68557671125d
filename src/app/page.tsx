@@ -30,53 +30,36 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Início",
-          id: "hero",
-        },
+          name: "Início",          id: "hero"},
         {
-          name: "Marcas",
-          id: "marcas",
-        },
+          name: "Marcas",          id: "marcas"},
         {
-          name: "Produtos",
-          id: "produtos",
-        },
+          name: "Produtos",          id: "produtos"},
         {
-          name: "Localização",
-          id: "local",
-        },
+          name: "Localização",          id: "local"},
         {
-          name: "Contato",
-          id: "contato",
-        },
+          name: "Contato",          id: "contato"},
       ]}
       brandName="2N Imports"
       button={{
-        text: "Pedir no WhatsApp",
-        href: "https://wa.me/5562...",
-      }}
+        text: "Pedir no WhatsApp",        href: "https://wa.me/5562..."}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="ALTO PADRÃO em cada detalhe"
       description="Desde 2017 trazendo o que há de melhor no streetwear importado para Goiânia e todo o Brasil."
       tag="DESDE 2017"
       buttons={[
         {
-          text: "Pedir no WhatsApp",
-          href: "#",
-        },
+          text: "Pedir no WhatsApp",          href: "#"},
         {
-          text: "Ver Coleção",
-          href: "#",
-        },
+          text: "Ver Coleção",          href: "#"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg"
     />
   </div>
 
@@ -87,49 +70,31 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Tommy Hilfiger",
-          description: "T-shirts e polos originais",
-          icon: CheckCircle,
+          title: "Tommy Hilfiger",          description: "T-shirts e polos originais",          icon: CheckCircle,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E9XzBOME9zbhU5coi3P11AhevA/uploaded-1779592040524-7pfyi5jy.jpg",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E9XzBOME9zbhU5coi3P11AhevA/uploaded-1779592040524-7pfyi5jy.jpg"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-afro-dreadlocks-posing-while-out-city_23-2149442521.jpg",
-            },
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-afro-dreadlocks-posing-while-out-city_23-2149442521.jpg"},
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg?_wi=2",
-          imageAlt: "User provided image",
         },
         {
-          title: "Hugo Boss",
-          description: "Slides e acessórios de luxo",
-          icon: CheckCircle,
+          title: "Hugo Boss",          description: "Slides e acessórios de luxo",          icon: CheckCircle,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/owner-getting-ready-reopening_23-2149142180.jpg",
-            },
+              imageSrc: "http://img.b2bpic.net/free-photo/owner-getting-ready-reopening_23-2149142180.jpg"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-with-green-eyes-wears-grey-sweater-hat-autumn-image-concept_633478-2606.jpg",
-            },
+              imageSrc: "http://img.b2bpic.net/free-photo/woman-with-green-eyes-wears-grey-sweater-hat-autumn-image-concept_633478-2606.jpg"},
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/one-fashionable-woman-standing-clothing-store-window-generated-by-ai_188544-32987.jpg",
-          imageAlt: "User provided image",
         },
         {
-          title: "Mizuno",
-          description: "Tênis premium para qualquer ocasião",
-          icon: CheckCircle,
+          title: "Mizuno",          description: "Tênis premium para qualquer ocasião",          icon: CheckCircle,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/stylish-hipster-arab-man-guy-posed-outdoor-street-style-rap-singer_627829-2776.jpg",
-            },
+              imageSrc: "http://img.b2bpic.net/free-photo/stylish-hipster-arab-man-guy-posed-outdoor-street-style-rap-singer_627829-2776.jpg"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-composition-toys-frame-template_23-2148144821.jpg",
-            },
+              imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-composition-toys-frame-template_23-2148144821.jpg"},
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg?_wi=1",
-          imageAlt: "User provided image",
         },
       ]}
       title="Confiança que veste bem"
@@ -144,44 +109,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "100%",
-          title: "Originais",
-          items: [
-            "Etiquetados",
-            "Nota Fiscal",
-            "Garantia",
-          ],
+          id: "m1",          value: "100%",          title: "Originais",          items: [
+            "Etiquetados",            "Nota Fiscal",            "Garantia"],
         },
         {
-          id: "m2",
-          value: "7+",
-          title: "Anos",
-          items: [
-            "Mercado de Goiânia",
-            "Experiência",
-            "Confiança",
-          ],
+          id: "m2",          value: "7+",          title: "Anos",          items: [
+            "Mercado de Goiânia",            "Experiência",            "Confiança"],
         },
         {
-          id: "m3",
-          value: "BR",
-          title: "Envio",
-          items: [
-            "Brasil todo",
-            "Rastreio",
-            "Rápido",
-          ],
+          id: "m3",          value: "BR",          title: "Envio",          items: [
+            "Brasil todo",            "Rastreio",            "Rápido"],
         },
         {
-          id: "m4",
-          value: "24h",
-          title: "Suporte",
-          items: [
-            "WhatsApp",
-            "Personalizado",
-            "Atendimento",
-          ],
+          id: "m4",          value: "24h",          title: "Suporte",          items: [
+            "WhatsApp",            "Personalizado",            "Atendimento"],
         },
       ]}
       title="Por que a 2N?"
@@ -197,45 +138,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "João Silva",
-          role: "Cliente",
-          company: "Goiânia",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg?_wi=2",
-        },
+          id: "t1",          name: "João Silva",          role: "Cliente",          company: "Goiânia",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg"},
         {
-          id: "t2",
-          name: "Mariana Souza",
-          role: "Cliente",
-          company: "Brasil",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-wearing-suit-posing-black-white_23-2149411391.jpg",
-        },
+          id: "t2",          name: "Mariana Souza",          role: "Cliente",          company: "Brasil",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-wearing-suit-posing-black-white_23-2149411391.jpg"},
         {
-          id: "t3",
-          name: "Lucas Pereira",
-          role: "Cliente",
-          company: "Goiânia",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cowboy-silhouette-against-warm-light_23-2149334101.jpg",
-        },
+          id: "t3",          name: "Lucas Pereira",          role: "Cliente",          company: "Goiânia",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/cowboy-silhouette-against-warm-light_23-2149334101.jpg"},
         {
-          id: "t4",
-          name: "Ricardo Alves",
-          role: "Cliente",
-          company: "Brasil",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-holding-hands-waist-white-t-shirt-jacket-gray-cap-looking-serious_176474-84267.jpg",
-        },
+          id: "t4",          name: "Ricardo Alves",          role: "Cliente",          company: "Brasil",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-man-holding-hands-waist-white-t-shirt-jacket-gray-cap-looking-serious_176474-84267.jpg"},
         {
-          id: "t5",
-          name: "Ana Clara",
-          role: "Cliente",
-          company: "Goiânia",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/stylish-casual-hipster-girl-cap-sunglasses-jeans-wear-listening-music-from-headphones-mobile-phone-against-large-graffiti-wall_627829-7723.jpg",
-        },
+          id: "t5",          name: "Ana Clara",          role: "Cliente",          company: "Goiânia",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/stylish-casual-hipster-girl-cap-sunglasses-jeans-wear-listening-music-from-headphones-mobile-phone-against-large-graffiti-wall_627829-7723.jpg"},
       ]}
       title="O QUE FALAM da 2N"
       description="Clientes fiéis de Goiânia e de todo o Brasil."
@@ -246,20 +162,15 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={true}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       tag="ENDEREÇO"
       title="Visite o Shopping da Noroeste"
       description="Setor Noroeste, Goiânia – GO. Atendimento personalizado via WhatsApp ou venha tomar um café conosco."
       buttons={[
         {
-          text: "Chamar no WhatsApp",
-          href: "https://wa.me/5562...",
-        },
+          text: "Chamar no WhatsApp",          href: "https://wa.me/5562..."},
         {
-          text: "Ver no Mapa",
-          href: "#",
-        },
+          text: "Ver no Mapa",          href: "#"},
       ]}
     />
   </div>
@@ -268,20 +179,15 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       tag="DROPS EXCLUSIVOS"
       title="PRONTO PRA VESTIR o padrão 2N?"
       description="Garanta seu look agora com envio garantido para todo o país."
       buttons={[
         {
-          text: "Chamar no WhatsApp",
-          href: "#",
-        },
+          text: "Chamar no WhatsApp",          href: "#"},
         {
-          text: "Ver Catálogo",
-          href: "#",
-        },
+          text: "Ver Catálogo",          href: "#"},
       ]}
     />
   </div>
@@ -290,54 +196,33 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Navegação",
-          items: [
+          title: "Navegação",          items: [
             {
-              label: "Início",
-              href: "#hero",
-            },
+              label: "Início",              href: "#hero"},
             {
-              label: "Marcas",
-              href: "#marcas",
-            },
+              label: "Marcas",              href: "#marcas"},
             {
-              label: "Produtos",
-              href: "#produtos",
-            },
+              label: "Produtos",              href: "#produtos"},
           ],
         },
         {
-          title: "Atendimento",
-          items: [
+          title: "Atendimento",          items: [
             {
-              label: "WhatsApp",
-              href: "#",
-            },
+              label: "WhatsApp",              href: "#"},
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
             {
-              label: "Como Chegar",
-              href: "#",
-            },
+              label: "Como Chegar",              href: "#"},
           ],
         },
         {
-          title: "Institucional",
-          items: [
+          title: "Institucional",          items: [
             {
-              label: "Desde 2017",
-              href: "#",
-            },
+              label: "Desde 2017",              href: "#"},
             {
-              label: "Política de Trocas",
-              href: "#",
-            },
+              label: "Política de Trocas",              href: "#"},
             {
-              label: "Envios Brasil",
-              href: "#",
-            },
+              label: "Envios Brasil",              href: "#"},
           ],
         },
       ]}
