@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FeatureCardTwentyFive from '@/components/sections/feature/FeatureCardTwentyFive';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
+import HeroBillboardTiltedCarousel from '@/components/sections/hero/HeroBillboardTiltedCarousel';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
@@ -47,9 +47,7 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardScroll
-      background={{
-        variant: "gradient-bars"}}
+      <HeroBillboardTiltedCarousel
       title="ALTO PADRÃO em cada detalhe"
       description="Desde 2017 trazendo o que há de melhor no streetwear importado para Goiânia e todo o Brasil."
       tag="DESDE 2017"
@@ -59,7 +57,10 @@ export default function LandingPage() {
         {
           text: "Ver Coleção",          href: "#"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg"
+      items={[
+        { imageSrc: "http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg", title: "Streetwear Premium", description: "Qualidade garantida" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-afro-dreadlocks-posing-while-out-city_23-2149442521.jpg", title: "Novas Coleções", description: "Lançamentos exclusivos" }
+      ]}
     />
   </div>
 
