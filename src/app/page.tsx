@@ -7,10 +7,9 @@ import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FeatureCardTwentyFive from '@/components/sections/feature/FeatureCardTwentyFive';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
-import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { CheckCircle, MapPin, MessageCircle, Star, Sparkles } from "lucide-react";
+import { CheckCircle, MapPin, Star, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -93,6 +92,8 @@ export default function LandingPage() {
       title="Visite-nos no Setor Noroeste"
       description="Estamos de portas abertas para te receber. Venha conferir nossa coleção pessoalmente ou chame agora no WhatsApp."
       buttons={[{ text: "Como Chegar", href: "#" }, { text: "Conversar agora", href: "#" }]}
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
     />
   </div>
 
@@ -105,6 +106,7 @@ export default function LandingPage() {
         { name: "email", type: "email", placeholder: "Seu WhatsApp", required: true }
       ]}
       textarea={{ name: "mensagem", placeholder: "Como podemos te ajudar?", rows: 4 }}
+      useInvertedBackground={false}
     />
   </div>
 
