@@ -76,7 +76,7 @@ export default function LandingPage() {
           href: "#",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg?_wi=1"
     />
   </div>
 
@@ -98,7 +98,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-afro-dreadlocks-posing-while-out-city_23-2149442521.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg?_wi=2",
           imageAlt: "User provided image",
         },
         {
@@ -128,7 +128,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-composition-toys-frame-template_23-2148144821.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg?_wi=1",
           imageAlt: "User provided image",
         },
       ]}
@@ -202,7 +202,7 @@ export default function LandingPage() {
           role: "Cliente",
           company: "Goiânia",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-yellow-shirt-colorful-jacket-blue-jeans-just-boxing_140725-17750.jpg?_wi=2",
         },
         {
           id: "t2",
