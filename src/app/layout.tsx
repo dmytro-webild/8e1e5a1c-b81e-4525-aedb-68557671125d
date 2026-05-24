@@ -10,6 +10,7 @@ import { Roboto } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { Raleway } from "next/font/google";
 
 
 
@@ -26,10 +27,10 @@ export const metadata: Metadata = {
 
 
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function RootLayout({
@@ -40,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${poppins.variable} antialiased`}>
+        <body className={`${raleway.variable} antialiased`}>
           <Tag />
           {children}
           <script
