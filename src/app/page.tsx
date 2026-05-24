@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FeatureCardTwentyFive from '@/components/sections/feature/FeatureCardTwentyFive';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import HeroBillboardTiltedCarousel from '@/components/sections/hero/HeroBillboardTiltedCarousel';
+import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
@@ -34,8 +34,6 @@ export default function LandingPage() {
         {
           name: "Marcas",          id: "marcas"},
         {
-          name: "Produtos",          id: "produtos"},
-        {
           name: "Localização",          id: "local"},
         {
           name: "Contato",          id: "contato"},
@@ -47,20 +45,19 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardTiltedCarousel
+      <HeroSplitTestimonial
       title="ALTO PADRÃO em cada detalhe"
       description="Desde 2017 trazendo o que há de melhor no streetwear importado para Goiânia e todo o Brasil."
       tag="DESDE 2017"
+      background={{ variant: "sparkles-gradient" }}
+      mediaAnimation="slide-up"
       buttons={[
         {
           text: "Pedir no WhatsApp",          href: "#"},
         {
           text: "Ver Coleção",          href: "#"},
       ]}
-      items={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/school-scene-with-queer-teens_23-2150379371.jpg", title: "Streetwear Premium", description: "Qualidade garantida" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-afro-dreadlocks-posing-while-out-city_23-2149442521.jpg", title: "Novas Coleções", description: "Lançamentos exclusivos" }
-      ]}
+      testimonials={[]}
     />
   </div>
 
@@ -162,8 +159,7 @@ export default function LandingPage() {
   <div id="local" data-section="local">
       <ContactCTA
       useInvertedBackground={true}
-      background={{
-        variant: "sparkles-gradient"}}
+      background={{ variant: "sparkles-gradient" }}
       tag="ENDEREÇO"
       title="Visite o Shopping da Noroeste"
       description="Setor Noroeste, Goiânia – GO. Atendimento personalizado via WhatsApp ou venha tomar um café conosco."
@@ -179,8 +175,7 @@ export default function LandingPage() {
   <div id="contato" data-section="contato">
       <ContactCTA
       useInvertedBackground={false}
-      background={{
-        variant: "radial-gradient"}}
+      background={{ variant: "radial-gradient" }}
       tag="DROPS EXCLUSIVOS"
       title="PRONTO PRA VESTIR o padrão 2N?"
       description="Garanta seu look agora com envio garantido para todo o país."
@@ -203,7 +198,7 @@ export default function LandingPage() {
             {
               label: "Marcas",              href: "#marcas"},
             {
-              label: "Produtos",              href: "#produtos"},
+              label: "Local",              href: "#local"},
           ],
         },
         {
