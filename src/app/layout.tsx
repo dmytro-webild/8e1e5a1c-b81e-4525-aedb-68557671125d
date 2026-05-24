@@ -34,6 +34,7 @@ export const metadata: Metadata = {
 
 
 
+
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
